@@ -18,7 +18,6 @@ try:
 except TypeError:
     pass
 
-# Test formatter function
 assert u.formatter(10) == ('0b1010', '0o12')
 
 try:

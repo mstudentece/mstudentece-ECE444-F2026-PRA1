@@ -1,5 +1,5 @@
 class utils:
-    def reverse(self, number: int) -> int:
+    def reversed(self, number: int) -> int:
         if number < 0:
             return -int(str(abs(number))[::-1])
         return int(str(number)[::-1])
